@@ -10,8 +10,18 @@
   <body>
     <h1> Hello World! </h1>
     <h2> A place I would like to visit </h2>
-    <p>   If I could go anywere in the world I would go to Greece. Ever cince i was young i loved greeke mythology.
-    it would be amazing to visit the place that i have heard and read so much about. </p>
+    <p>   If I could go anywhere in the world I would go to Greece. Ever since I was young I loved greek mythology.
+    it would be amazing to visit the place that I have heard and read so much about. </p>
+    <h2> A person I admire (past if present) </h2>
+    <p> If I could go back in time and meat Albert Einstein I would gladly take that opportunity and would. I admire
+    how he affected our current time and I admire him a lot. </h2>
+    <h2> Favorite fruits </h2>
+    <ul> cherries 
+    blueberries
+    blackberries
+    raspberries
+    strawberries
+    </ul>
   </body>
 
 </html>
