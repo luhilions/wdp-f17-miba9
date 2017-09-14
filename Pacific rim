@@ -1,1 +1,18 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Project 3 - Images</title>
+  </head>
+
+  <body>
+    <h2><span style="color:blue">My</span> <span style="color:red">Favorite</span> <span style="color:green">Movie</span> -- <span style="color:#990000">Pacific Rim!</span></h2>
+    <ol>
+    <li><img src="http://www.chud.com/wp-content/uploads/2015/07/pacific-rim-2.jpg"></li>
+    <li><img src="http://img.cinemablend.com/cb/2/6/4/c/e/9/264ce962bbf55e750b68e39623f86d1f9f4f7581c1967292882fa79d1d9bf29a.jpg"></li>
+    </ol>
+  </body>
+
+</html>
