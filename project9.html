@@ -5,9 +5,7 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Project 9 - CSS Table Styling</title>
-  </head>
-  
-  <style type="text/css">
+     <style type="text/css">
        .days {
        width: 350px;
        border-width: 3px;
@@ -19,30 +17,35 @@
         border-style: dashed;
         border-color: blue;
       }
-      td {
-        border-width: 2px;
-        border-style: dashed;
-        border-color: blue;
+      .red {
+        text-color: red;
       }
-    
-      td {
-        border-width: 2px;
-        border-style: dashed;
-        border-color: blue;
-      }
-      td {
-        border-width: 2px;
-        border-style: dashed;
-        border-color: blue;
-      }
+      .blue {
+        text-color: blue;
+       }
+      </style> 
+  </head>
     <table>
       <tr>
-       <th class=".day">day</th>
-       <td>68</td>
-       <td>68</td>
-       <td>70</td>
-       <td>73</td>
-       <td>63</td>
+       <th class=".day">Monday</th>
+       <th class=".day">Tuesday</th>
+       <th class=".day">Wednesday</th>
+       <th class=".day">Thursday</th>
+       <th class=".day">Friday</th>
+      </tr>
+      <tr>
+       <td class=".red">68</td>
+       <td class=".red">68</td>
+       <td class=".red">70</td>
+       <td class=".red">73</td>
+       <td class=".red">63</td>
+      </tr>
+      <tr>
+       <td class=".blue">68</td>
+       <td class=".blue">68</td>
+       <td class=".blue">70</td>
+       <td class=".blue">73</td>
+       <td class=".blue">63</td>
       </tr>
     </table>
   <body>
