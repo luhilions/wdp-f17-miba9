@@ -6,30 +6,39 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Project 18 - Positioning</title>
     <style>
+      .felt {
+         width: 300px;
+         height: 300px;
+         background-image: url('../img/felt.jpg');
+         background-color: green;
+         position: relative;
+         top: 25px;
+         left: 25px;
+       }
       .queencard {
         z-index: 4;
         float: clear;
-        position: relative;
+        position: absolute;
       }
       .kingcard {
         z-index: 3;
         float: clear;
-        position: relative;
+        position: absolute;
       }
       .tenofdiamonds {
         z-index: 6;
         float: clear;
-        position: relative;
+        position: absolute;
       }
       .jackcard {
         z-index: 5;
         float: clear;
-        position: relative;
+        position: absolute;
       }
       .cardback {
         z-index: 2;
         float: clear;
-        position: relative;
+        position: absolute;
       }
       .bg {
          background-image: url('images/felt.jpg');
@@ -54,7 +63,6 @@
     <img src="images/jackclubs.png" class="jackcard" width="64" height="100" alt="Jack card" />
     <img src="images/card.png" class="cardback" width="64" height="100" alt="Back of the card" />
    </div>
-    <p>test</p>
   </body>
 
 </html>
