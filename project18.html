@@ -9,37 +9,38 @@
       .queencard {
         z-index: 3;
         float: clear;
+        position: relative;
       }
       .kingcard {
         z-index: 4;
         float: clear;
+        position: relative;
       }
       .tenofdiamonds {
         z-index: 1;
         float: clear;
+        position: relative;
       }
       .jackcard {
         z-index: 2;
         float: clear;
+        position: relative;
       }
       .cardback {
         z-index: 5;
         float: clear;
-      }
-      backgound {
-        background-image: url('images/backgroundtexture.jpg');
-        background-color: gray;
-        float: clear;
+        position: relative;
       }
       .gradient {
         background-image: url('images/gradient.jpg');
         background-repeat: repeat-x;
         background-color: gray;
+        z-index: 6;
       }
     </style>
   </head>
   
-  <body>
+  <body class="gradient">
     <img src="images/tendiamonds.png" class="tenofdiamonds" width="64" height="100" alt="Ten of Diamonds" />
     <img src="images/queenhearts.png" class="queencard" width="64" height="100" alt="Queen card" />
     <img src="images/kingspades.png" class="kingcard" width="64" height="100" alt="King card" />
