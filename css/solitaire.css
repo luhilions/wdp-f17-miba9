@@ -1,0 +1,44 @@
+img {
+        margin: auto;
+        left: 110px;
+      }
+      .felt {
+         margin: auto;
+         width: 300px;
+         height: 300px;
+         background-image: url('images/felt.jpg');
+         background-color: green;
+         position: relative;
+         top: 25px;
+         left: 25px;
+       }
+      .queencard {
+        z-index: 4;
+        position: absolute;
+        top: 100px;
+      }
+      .kingcard {
+        z-index: 3;
+        position: absolute;
+        top: 75px;
+      }
+      .tenofdiamonds {
+        z-index: 6;
+        position: absolute;
+        top: 150px;
+      }
+      .jackcard {
+        z-index: 5;
+        position: absolute;
+        top: 125px;
+      }
+      .cardback {
+        z-index: 2;
+        position: absolute;
+        top: 50px;
+      }
+      .gradient {
+        background-image: url('images/gradient.jpg');
+        background-repeat: repeat-x;
+        background-color: gray;
+      }
